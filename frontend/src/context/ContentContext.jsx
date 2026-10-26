@@ -7,9 +7,9 @@ import productChromeDefault from '../assets/product-chrome.jpg';
 import productSculptureDefault from '../assets/product-sculpture.jpg';
 import testimonialWaveDefault from '../assets/testimonial-wave.jpg';
 
-const ContentContext = createContext();
+import { API_BASE_URL } from '../config/api';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const ContentContext = createContext();
 
 const defaultContentState = {
   hero: {

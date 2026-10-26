@@ -26,6 +26,7 @@ import {
   RotateCcw
 } from 'lucide-react';
 import { useContent } from '../../context/ContentContext';
+import { API_BASE_URL } from '../../config/api';
 
 const AVAILABLE_ICONS = [
   { name: 'Sparkles', label: 'Sparkles', component: Sparkles },
@@ -216,7 +217,7 @@ export default function AdminDashboard({ user, token, onLogout, onBackToSite }) 
     setSettingsStatus({ type: '', message: '' });
 
     try {
-      const res = await fetch('http://localhost:5000/api/auth/credentials', {
+      const res = await fetch(`${API_BASE_URL}/auth/credentials`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

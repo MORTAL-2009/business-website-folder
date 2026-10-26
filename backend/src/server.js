@@ -19,19 +19,25 @@ const PORT = process.env.PORT || 5000;
 await connectDB();
 await seedAdminIfMissing();
 
+app.set('trust proxy', 1);
+
 // CORS Configuration
 const allowedOrigins = process.env.CLIENT_URL 
-  ? process.env.CLIENT_URL.split(',').map(url => url.trim())
+  ? process.env.CLIENT_URL.split(',').map(url => url.trim().replace(/\/+$/, ''))
   : ['http://localhost:5173', 'http://localhost:5174'];
 
 app.use(cors({
   origin: (origin, callback) => {
     // Allow requests with no origin (e.g. mobile apps, curl, postman)
     if (!origin) return callback(null, true);
-    if (allowedOrigins.indexOf(origin) !== -1 || allowedOrigins.includes('*')) {
+    const cleanOrigin = origin.replace(/\/+$/, '');
+    if (
+      allowedOrigins.indexOf(cleanOrigin) !== -1 || 
+      allowedOrigins.includes('*') ||
+      cleanOrigin.endsWith('.vercel.app')
+    ) {
       return callback(null, true);
     }
-    // Permissive for local development
     return callback(null, true);
   },
   credentials: true,
