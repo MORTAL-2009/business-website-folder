@@ -1,0 +1,152 @@
+{
+  "hero": {
+    "badge": "Next-Level Business",
+    "watermark": "INTELLIGENT",
+    "headline": "Boost Efficiency,\nMaximize Profits.",
+    "subtext": "Use our AI tools to automate tasks, cut costs, and enhance your bottom line with intelligent precision.",
+    "ctaText": "Get Started",
+    "orbImage": "/src/assets/hero-orb.jpg",
+    "hudStrategy": "Future-Ready Strategies",
+    "hudSupport": "24/7 Customer Support"
+  },
+  "stats": {
+    "happyClients": "125k+",
+    "growthRate": "95%",
+    "yearsExperience": "25",
+    "ctaText": "Join Now",
+    "sponsors": [
+      {
+        "name": "Niscola.io"
+      },
+      {
+        "name": "SAMTIV"
+      },
+      {
+        "name": "IEA."
+      },
+      {
+        "name": "BOEING"
+      }
+    ]
+  },
+  "about": {
+    "tag": "ABOUT US",
+    "headline": "Boost Efficiency, Maximize Profits with Smart AI Solutions.",
+    "description": "Hoosty empowers forward-thinking enterprises with hyper-automated machine intelligence. We bridge high-velocity data execution with self-optimizing business pipelines.",
+    "cardText": "Leverage our AI tools to automate repetitive tasks, reduce costs, and improve your bottom line seamlessly.",
+    "ribbonImage": "/src/assets/about-ribbon.jpg",
+    "version": "Ecosystem v2.4"
+  },
+  "services": {
+    "tag": "OUR SERVICE",
+    "items": [
+      {
+        "id": "workflow",
+        "title": "Workflow Automation",
+        "badge": "Productivity",
+        "buttonText": "Get Started",
+        "image": "/src/assets/about-ribbon.jpg"
+      },
+      {
+        "id": "scalable",
+        "title": "Scalable AI Solutions",
+        "badge": "Compute Tier",
+        "buttonText": "Get Started"
+      },
+      {
+        "id": "cost",
+        "title": "Cost Optimization",
+        "buttonText": "Get Started",
+        "description": "Cut operational costs by automating and streamlining processes with algorithmic accuracy."
+      }
+    ]
+  },
+  "videoBanner": {
+    "tag": "AI-Powered",
+    "title": "Ready To Maximize Your Profits?",
+    "ctaText": "Try AI Tools",
+    "smarterTitle": "Work Smarter.",
+    "smarterDesc": "Our AI solutions boost ROI by enhancing efficiency and cutting redundant operational costs across your enterprise.",
+    "bgImage": "/src/assets/banner-flow.jpg"
+  },
+  "products": {
+    "tag": "OUR PRODUCT",
+    "headline": "Maximize ROI with Efficiency-Driven AI.",
+    "items": [
+      {
+        "num": "02/",
+        "tag": "EfficioAI",
+        "title": "Automate workflows for efficiency.",
+        "image": "/src/assets/product-ribbon.jpg"
+      },
+      {
+        "num": "03/",
+        "tag": "OptiFlow",
+        "title": "Effortlessly optimize workflows with AI.",
+        "image": "/src/assets/product-chrome.jpg"
+      },
+      {
+        "num": "04/",
+        "tag": "OptiFlow",
+        "title": "Guide your business to higher profits using AI.",
+        "image": "/src/assets/product-sculpture.jpg"
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "tag": "WHY CHOOSE US",
+    "headline": "Work Smarter,\nNot Harder",
+    "ribbonImage": "/src/assets/about-ribbon.jpg",
+    "orbImage": "/src/assets/hero-orb.jpg",
+    "items": [
+      {
+        "title": "Proven Expertise",
+        "description": "Our team has deep AI experience, delivering tailored enterprise solutions that drive measurable growth."
+      },
+      {
+        "title": "Custom AI Solutions",
+        "description": "We create tools that fit your unique business workflows, seamlessly integrating with legacy and modern systems."
+      },
+      {
+        "title": "Efficiency Redefined",
+        "description": "We streamline core operations, eliminate manual bottlenecks, and boost productivity tenfold."
+      }
+    ]
+  },
+  "testimonials": {
+    "tag": "TESTIMONIALS",
+    "headline": "Future of\nEfficiency is Here",
+    "items": [
+      {
+        "quote": "Using this has transformed the way we work. Tasks that used to take hours are now completed in minutes. It's a game-changer for our team!",
+        "author": "Mark L.",
+        "role": "IT Specialist",
+        "featuredName": "Anna K.",
+        "featuredRole": "Business Strategist",
+        "avatarImage": "/src/assets/testimonial-wave.jpg"
+      },
+      {
+        "quote": "The autonomous agent workflows lowered our operational overhead by 42% in just two quarters. Hoosty's accuracy is unmatched in the industry.",
+        "author": "Elena Rostova",
+        "role": "VP of Product Engineering",
+        "featuredName": "David C.",
+        "featuredRole": "Operations Lead",
+        "avatarImage": "/src/assets/testimonial-wave.jpg"
+      }
+    ]
+  },
+  "footer": {
+    "brand": "Hoosty",
+    "description": "Autonomous AI infrastructure designed for ambitious businesses looking to maximize operational output and eliminate inefficiencies.",
+    "phone": "+1 (999) 888-77-66",
+    "email": "hello@niskalastd.com",
+    "address": "483920, Indonesia, Lampung 22/2/5, Office 4",
+    "languages": [
+      "En",
+      "Es",
+      "Fr",
+      "De",
+      "Ru"
+    ]
+  }
+}
